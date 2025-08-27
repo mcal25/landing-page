@@ -127,11 +127,66 @@
 
 #inspiring-quote {
     background-color: #e5e7eb;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#inspiring-quote-content {
+    width: 60%;
+    justify-content: center;
+}
+
+#inspiring-quote h1 {
     padding: 2rem 0rem 2rem 0rem;
+    font-style: italic;
+    font-weight: 100;
+}
+
+#inspiring-quote h2 {
+    font-weight: 400;
+    text-align: right;
 }
 
 #call-to-action {
-    padding: 2rem 0rem 2rem 0rem;
+    padding: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+#center-content {
+    display: flex;
+    color: white;
+    padding: 2rem;
+    background-color: #5680ee;
+    width: 80%;
+    justify-content: space-between;
+    border-radius: 8px;;
+}
+
+
+#center-content button {
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #5680ee;
+    padding: 6px 24px;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 8px;
+    margin: 1rem 0rem 1rem 0rem
+}
+
+#center-content #right-content {
+    justify-content: flex-end;
+}
+
+#center-content h3 {
+    font-size: 16px;
+    color: rgb(222, 222, 222);
+    margin-top: 1rem;
+    font-weight: 100;
 }
 
 
